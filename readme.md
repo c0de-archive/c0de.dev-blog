@@ -8,7 +8,7 @@ There's not really a whole lot here, but it contains all the posts and content; 
 ## Installation
 
 1. SSH into your server
-1. Clone the repo - `git clone https://github.com/alopexc0de/c0de.dev-blog`
+1. Clone the repo - `git clone --recurse-submodules https://github.com/alopexc0de/c0de.dev-blog`
 1. `cd c0de.dev-blog`
 1. Install the config and plugins - `sudo make install`
 
