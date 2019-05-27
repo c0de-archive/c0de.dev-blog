@@ -16,6 +16,9 @@ help:
 
 install:
 	@echo 'noop'
+	@virtualenv venv
+	@source venv/bin/activate
+	@pip install -r requirements.txt
 
 uninstall:
 	@echo 'noop'
@@ -23,6 +26,7 @@ uninstall:
 update:
 	@echo 'noop'
 	@git submodule update --recursive --remote
+	@source venv/bin/activate
 	@pip install -r requirements.txt
 	plugins
 
