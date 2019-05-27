@@ -35,11 +35,26 @@ DEFAULT_PAGINATION = 20
 USE_FOLDER_AS_CATEGORY = True  # Use directories in content to specify the category
 DEFAULT_CATEGORY = 'none'
 
-PLUGINS_PATH = ['plugins/']
+PLUGIN_PATHS = ['plugins/encrypt-content',
+                'plugins']
 
 PLUGINS = ['encrypt_content', 'deadlinks']
 
+# Plugin specific settings below
+
+# Encrypt-Content Settings
 ENCRYPT_CONTENT = {
     'title_prefix': '[Encrypted]',
     'summary': 'This content is encrypted and requires a password to unlock'
+}
+
+# Deadlink Settings
+DEADLINK_VALIDATION = True
+
+DEADLINK_OPTS = {
+    'archive': True,
+    'classes': ['disabled'],
+    'labels': True,
+    'timeout_duration_ms': 3000,
+    'timeout_is_error': False
 }
