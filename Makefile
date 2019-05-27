@@ -14,7 +14,7 @@ help:
 	@echo '                                                                                          '
 
 install:
-	@echo 'noop'
+	@echo 'Installing pelican dependancies'
 	@virtualenv venv
 	@source venv/bin/activate
 	@pip install -r requirements.txt
@@ -23,7 +23,7 @@ uninstall:
 	@echo 'noop'
 
 update:
-	@echo 'noop'
+	@echo 'Updating your pelican install'
 	@git submodule update --recursive --remote
 	@source venv/bin/activate
 	@pip install -r requirements.txt
