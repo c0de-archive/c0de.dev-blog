@@ -1,3 +1,5 @@
+SHELL := /bin/bash
+
 BASEDIR=$(CURDIR)
 PLUGINDIR=$(BASEDIR)/plugins
 PELICANDIR=$(BASEDIR)/pelican
