@@ -13,15 +13,14 @@ There's not really a whole lot here, but it contains all the posts and content; 
 1. Setup a virtualenv - `virtualenv venv`
 1. Activate it - `source venv/bin/activate`
 1. Install dependencies into virtualenv - `pip install -r requirements.txt`
-
+1. Install the service and plugins - `sudo make install`
 
 ## Updating
 
 1. SSH into your server
 1. `cd c0de.dev-blog`
-1. Activate virtualenv - `source venv/bin/activate`
-1. Install/Update plugins - `git submodule update --recursive --remote`
-1. Install dependencies into virtualenv - `pip install -r requirements.txt`
+1. `source venv/bin/activate`
+1. `make update`
 
 ## TODO
 

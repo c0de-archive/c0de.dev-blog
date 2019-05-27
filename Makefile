@@ -20,6 +20,9 @@ uninstall:
 
 update:
 	@echo 'noop'
+	@git submodule update --recursive --remote
+	@pip install -r requirements.txt
+	plugins
 
 plugins:
 	@echo 'Creating symlinks for plugins'
