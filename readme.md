@@ -23,4 +23,3 @@ There's not really a whole lot here, but it contains all the posts and content; 
 * Service/Unit to run this in a server on prod
 * Git hooks to automatically fetch content 
 * NginX config
-* Automatic plugin linking
