@@ -1,9 +1,5 @@
 SHELL := /bin/bash
 
-BASEDIR=$(CURDIR)
-PLUGINDIR=$(BASEDIR)/plugins
-PELICANDIR=$(BASEDIR)/pelican
-
 help:
 	@echo 'Makefile for installing and updating the c0de.dev blog                                    '
 	@echo '                                                                                          '
