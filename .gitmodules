@@ -1,3 +1,6 @@
 [submodule "pelican/plugins/encrypt-content"]
 	path = pelican/plugins/encrypt-content
 	url = https://github.com/mindcruzer/pelican-encrypt-content.git
+[submodule "pelican/plugins/deadlinks"]
+	path = pelican/plugins/deadlinks
+	url = https://github.com/silentlamb/pelican-deadlinks.git
