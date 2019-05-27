@@ -11,7 +11,6 @@ help:
 	@echo '   make install                        Installs all components                            '
 	@echo '   make uninstall                      Uninstalls all components, leaving the source dir  '
 	@echo '   make update                         Replaces existing components that have changed     '
-	@echo '   make plugins                        Creates symlinks of newly added plugins in pelican '
 	@echo '                                                                                          '
 
 install:
@@ -19,7 +18,6 @@ install:
 	@virtualenv venv
 	@source venv/bin/activate
 	@pip install -r requirements.txt
-	plugins
 
 uninstall:
 	@echo 'noop'
@@ -29,8 +27,3 @@ update:
 	@git submodule update --recursive --remote
 	@source venv/bin/activate
 	@pip install -r requirements.txt
-	plugins
-
-plugins:
-	@echo 'Creating symlinks for plugins'
-	@echo 'noop'
