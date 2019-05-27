@@ -20,14 +20,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Personal Site', 'https://c0defox.es'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/alopexc0de'),
+          ('Keybase', 'https://keybase.io/alopexc0de'),
+          ('Telegram', 'https://t.me/c0defox'),)
 
 DEFAULT_PAGINATION = 20
 
