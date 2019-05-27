@@ -7,3 +7,6 @@
 [submodule "pelican/plugins/bootstrapify"]
 	path = pelican/plugins/bootstrapify
 	url = https://github.com/ingwinlu/pelican-bootstrapify.git
+[submodule "pelican/content"]
+	path = pelican/content
+	url = git@github.com:alopexc0de/c0de.dev-content.git
