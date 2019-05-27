@@ -15,6 +15,14 @@ There's not really a whole lot here, but it contains all the posts and content; 
 1. Install dependencies into virtualenv - `pip install -r requirements.txt`
 
 
+## Updating
+
+1. SSH into your server
+1. `cd c0de.dev-blog`
+1. Activate virtualenv - `source venv/bin/activate`
+1. Install/Update plugins - `git submodule update --recursive --remote`
+1. Install dependencies into virtualenv - `pip install -r requirements.txt`
+
 ## TODO
 
 * Service/Unit to run this in a server on prod
