@@ -35,7 +35,9 @@ DEFAULT_PAGINATION = 20
 USE_FOLDER_AS_CATEGORY = True  # Use directories in content to specify the category
 DEFAULT_CATEGORY = 'none'
 
-PLUGINS = ['encrypt_content']
+PLUGINS_PATH = ['plugins']
+
+PLUGINS = ['encrypt_content', 'deadlinks']
 
 ENCRYPT_CONTENT = {
     'title_prefix': '[Encrypted]',
