@@ -31,3 +31,6 @@ DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+USE_FOLDER_AS_CATEGORY = True  # Use directories in content to specify the category
+DEFAULT_CATEGORY = 'none'
