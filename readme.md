@@ -2,7 +2,7 @@
 
 
 This is a [Pelican](https://getpelican.com) based blog that powers [c0de.dev](https://c0de.dev). 
-There's not really a whole lot here, but it contains all the posts and content; as well as all configuration files.
+There's not really a whole lot here, but it contains all the configuration files and plugins/themes.
 
 
 ## Installation
