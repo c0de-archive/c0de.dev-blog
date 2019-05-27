@@ -34,3 +34,10 @@ DEFAULT_PAGINATION = 20
 
 USE_FOLDER_AS_CATEGORY = True  # Use directories in content to specify the category
 DEFAULT_CATEGORY = 'none'
+
+PLUGINS = ['encrypt_content']
+
+ENCRYPT_CONTENT = {
+    'title_prefix': '[Encrypted]',
+    'summary': 'This content is encrypted and requires a password to unlock'
+}
