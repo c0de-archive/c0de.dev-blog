@@ -38,7 +38,7 @@ DEFAULT_CATEGORY = 'none'
 PLUGIN_PATHS = ['plugins/encrypt-content',
                 'plugins']
 
-PLUGINS = ['encrypt_content', 'deadlinks']
+PLUGINS = ['encrypt_content', 'deadlinks', 'bootstrapify']
 
 # Plugin specific settings below
 
