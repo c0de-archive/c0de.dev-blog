@@ -10,3 +10,6 @@
 [submodule "pelican/content"]
 	path = pelican/content
 	url = git@github.com:alopexc0de/c0de.dev-content.git
+[submodule "pelican/theme"]
+	path = pelican/theme
+	url = git@github.com:alopexc0de/pelican-mg.git
