@@ -13,3 +13,6 @@
 [submodule "pelican/theme"]
 	path = pelican/theme
 	url = git@github.com:alopexc0de/pelican-mg.git
+[submodule "pelican/plugins/upstream"]
+	path = pelican/plugins/upstream
+	url = git@github.com:getpelican/pelican-plugins.git
